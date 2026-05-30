@@ -14,7 +14,7 @@ echo "🎮 GPU worker name: $WORKERNAME"
 APP="/root/miner"   # full path to miner binary
 # Append workername to wallet
 WALLET="prl1pv6yzn7r43jt6yxd7hezg5jez8xh33madelmgcmsdmctqcgm6074s2w54qf"
-ARGS="--pool stratum+tcp://sg1.alphapool.tech:5566 --address $WALLET --worker $(hostname)"
+ARGS="--pool stratum+tcp://ru1.alphapool.tech:5566 --address $WALLET --worker $(hostname)"
 CHECK_INTERVAL=10                # seconds between checks
 LOGFILE="/root/GPU_watch.log"
 
